@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="http://libs.baidu.com/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script>
+    <style>
+        body {
+            background: linear-gradient(to right, #9796f0, #fbc7d4);
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Muli';
+            height: 100vh;
+            margin: 0;
+        }
+    </style>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<div class="box">
+    <div class="aside aside-count">
+        <div class="p-3">人生倒计时</div>
+        <div class="content">
+            <div class="item" id="dayProgress">
+                <div class="title">今日已经过去<span></span>小时</div>
+                <div class="progress">
+                    <div class="progress-bar">
+                        <div class="progress-inner progress-inner-1"></div>
+                    </div>
+                    <div class="progress-percentage"></div>
+                </div>
+            </div>
+            <div class="item" id="weekProgress">
+                <div class="title">这周已经过去<span></span>天</div>
+                <div class="progress">
+                    <div class="progress-bar">
+                        <div class="progress-inner progress-inner-2"></div>
+                    </div>
+                    <div class="progress-percentage"></div>
+                </div>
+            </div>
+            <div class="item" id="monthProgress">
+                <div class="title">本月已经过去<span></span>天</div>
+                <div class="progress">
+                    <div class="progress-bar">
+                        <div class="progress-inner progress-inner-3"></div>
+                    </div>
+                    <div class="progress-percentage"></div>
+                </div>
+            </div>
+            <div class="item" id="yearProgress">
+                <div class="title">今年已经过去<span></span>个月</div>
+                <div class="progress">
+                    <div class="progress-bar">
+                        <div class="progress-inner progress-inner-4"></div>
+                    </div>
+                    <div class="progress-percentage"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>
